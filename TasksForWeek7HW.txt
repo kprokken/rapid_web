@@ -1,0 +1,12 @@
+Mark - 
+Home						index.html
+Rates							rates.html
+
+Brandon - 
+Personal Training	pt.html
+Calender					cal.html
+
+James - 
+Header and Footer
+Contact Us				contact.html
+
