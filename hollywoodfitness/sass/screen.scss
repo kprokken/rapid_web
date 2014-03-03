@@ -1,0 +1,57 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+$color-red: #c00;
+$line: none;
+@mixin rounded($vert, $horz, $radius: 10px) {
+	border-#{$vert}-#{$horz}-radius: $radius;
+  -moz-border-radius-#{$vert}#{$horz}: $radius;
+  -webkit-border-#{$vert}-#{$horz}-radius: $radius;	
+	}
+
+	#logo {
+		display: block;
+		width: 300px;
+		height: 75px;
+		float: left;
+		background:  url('/images/hollywoodlogo.jpg') left center no-repeat;
+		}
+	.navbar {
+		float: right;
+		text-align: center;
+		line-height: 75px;
+		font-size: 35px;
+	    li { 
+		display: block;
+		width: 250px;
+		height: 75px;
+		list-style: none;
+		@include rounded(top,left);
+		@include rounded(top,right);
+		float: left;
+		}
+		a {
+		display: block;
+		width: 250px;
+		height: 75px;
+		background-color: $color-red;
+		text-decoration: none;
+		color: black;
+		}
+		}
+	.main {
+	clear: both;
+	}
+	.footer {
+	clear: left;
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	img {
+		margin-top: 35px;
+		}
+	}
