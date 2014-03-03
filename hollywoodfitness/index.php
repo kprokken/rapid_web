@@ -9,11 +9,11 @@
       <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   ![endif]-->
 
-
+	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="js/jquery.transit.js"></script>
 	<script src="js/script.js"></script>
-
+	
 	 <script>
 		$(".slideshow > div:gt(0)").hide();
 
@@ -33,6 +33,7 @@
 	<div class="wrapper">
 
 		<div class="header_area">
+			<h1>This is the Home Page!!</h1>
 			<?php include "header.php"; 
 				?>
 		</div>	
