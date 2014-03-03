@@ -4,7 +4,6 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
-<<<<<<< .merge_file_a15824
 $color-red: #c00;
 $line: none;
 @mixin rounded($vert, $horz, $radius: 10px) {
@@ -12,7 +11,9 @@ $line: none;
   -moz-border-radius-#{$vert}#{$horz}: $radius;
   -webkit-border-#{$vert}-#{$horz}-radius: $radius;	
 	}
-
+body{
+	position: relative;
+}
 	#logo {
 		display: block;
 		width: 300px;
@@ -46,22 +47,6 @@ $line: none;
 	.main {
 	clear: both;
 	}
-	.footer {
-	clear: left;
-	height: 100px;
-	width: 100%;
-	background-color: black;
-	text-align: center;
-	img {
-		margin-top: 35px;
-		}
-	}
-=======
-
-body{
-	position: relative;
-}
-
 #container{
 	
 	// background-color: blue;
@@ -115,4 +100,13 @@ img{
 	position:relative;
 	background-color: #333;
 }
->>>>>>> .merge_file_a15616
+.footer {
+	clear: left;
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	img {
+		margin-top: 35px;
+		}
+	}
