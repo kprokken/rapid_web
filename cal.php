@@ -13,9 +13,9 @@
 <div id="container" class="outside__container">
 	<?php include "header.php"?>
 	<div  id="main" class="main">
-		
+	<p>This will be the calendar page.</p>		
 	</div>
-	<?php include "header.php"?>
+	<?php include "footer.php"?>
 </div>
 </body>
 </html>
