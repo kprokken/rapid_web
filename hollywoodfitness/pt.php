@@ -13,7 +13,7 @@
 <div id="container" class="outside__container">
 	<?php include "header.php"?>
 	<div  id="main" class="main">
-	<p>This will be the calendar page.</p>		
+	<p>This will be the Personal Trainer page.</p>		
 	</div>
 	<?php include "footer.php"?>
 </div>

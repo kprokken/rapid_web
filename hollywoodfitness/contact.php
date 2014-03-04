@@ -13,7 +13,14 @@
 <div id="container" class="outside__container">
 	<?php include "header.php"?>
 	<div  id="main" class="main">
-	<p>This will be the calendar page.</p>		
+	<p>Contact Us with any question or concern you have.</p>
+	<form>
+	<label>First Name: <input type="text"></input></label>
+	<label>Last Name: <input type="text"></input></label>
+	<label>Email Address: <input type="text"></input></label>
+	<label>Subject: <input type="text"></input></label>
+	<label>Message: <input type="textarea"></input></label>
+	</form>
 	</div>
 	<?php include "footer.php"?>
 </div>

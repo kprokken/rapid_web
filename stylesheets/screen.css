@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,71 +24,116 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 8, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 body {
   position: relative;
 }
 
 /* line 17, ../sass/screen.scss */
+#logo {
+  display: block;
+  width: 300px;
+  height: 75px;
+  float: left;
+  background: url("/images/hollywoodlogo.jpg") left center no-repeat;
+}
+
+/* line 24, ../sass/screen.scss */
+.navbar {
+  float: right;
+  text-align: center;
+  line-height: 75px;
+  font-size: 35px;
+}
+/* line 29, ../sass/screen.scss */
+.navbar li {
+  display: block;
+  width: 250px;
+  height: 75px;
+  list-style: none;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  float: left;
+}
+/* line 38, ../sass/screen.scss */
+.navbar a {
+  display: block;
+  width: 250px;
+  height: 75px;
+  background-color: #cc0000;
+  text-decoration: none;
+  color: black;
+}
+
+/* line 47, ../sass/screen.scss */
+.main {
+  clear: both;
+}
+
+/* line 55, ../sass/screen.scss */
 .content_area {
   position: relative;
   margin: 0 auto;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .header_area {
   position: relative;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .footer_area {
   position: relative;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .wrapper {
   position: relative;
   margin: 0 auto;
@@ -97,7 +142,7 @@ body {
   height: 100%;
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .slideshow {
   margin: 0 auto;
   position: relative;
@@ -105,7 +150,7 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 .slideshow > div {
   position: absolute;
   margin: 0 auto;
@@ -115,8 +160,21 @@ body {
   bottom: 10px;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .justabox {
   position: relative;
   background-color: #333;
+}
+
+/* line 103, ../sass/screen.scss */
+.footer {
+  clear: left;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+/* line 109, ../sass/screen.scss */
+.footer img {
+  margin-top: 35px;
 }
