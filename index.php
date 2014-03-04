@@ -38,8 +38,9 @@
 				?>
 		</div>	
 
-			<div class="content_area">
-				<div class="row">
+			<!-- <div class="content_area"> -->
+
+				<!-- <div class="row">
 					<div class="large-1 column">		
 						<div class="slideshow">
 				  			<div class="small-4 large-4 columns">
@@ -54,17 +55,23 @@
 			  					<img src="images/smiling.jpg" alt="three" width="100%"/>
 			  				</div>
 
-			  			</div>
+			  			</div> -->
 
 						<div class="row">
-							<div class="small-3 large-6 small-3">
-								<div class="justabox">
+							<div class="small-3 columns">
+								<div class="justabox1">
+									<p>spans 3 columns.</p>
 								</div>
+							<div class="small-9 columns">
+								<div class="justabox2">
+									<p>spans 9 columns.</p>
+								</div>
+							</div>
 							</div>
 						</div>
 
-		  			</div>	
-				</div>	<!--close slider section--> 	
+		  			<!-- </div>	
+				</div> -->	<!--close slider section--> 	
 			</div>
 
 		<div class="footer_area">
