@@ -39,3 +39,11 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+body{
+	background-color: blue;
+}
+.navbar ul li a{
+	display: inline;
+	list-style-type: none;
+}
