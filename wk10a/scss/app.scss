@@ -112,7 +112,17 @@ footer{
 		}
 
 @media only screen and (max-width: 1027px){
+	body{
+		background-color: yellow;
+	}
+	
+	}
 
+	@media only screen and (max-width: 1020px){
+	body{
+		background-color: blue;
+	}
+	
 	}
 
 
