@@ -1,0 +1,33 @@
+/* 
+	Brandon Escriva
+	WDIM161 - Summer 2012
+	FINAL
+*/
+h1{
+	font-family:"copperplate", Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom:px;
+}
+h2{
+	padding-top: 20px;
+	text-align: center;}
+
+body {
+	background-image:url();
+	background-position:center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-top: 20px;
+	padding-right:50px;
+padding-bottom:80px;
+
+	}
+	table, th, td
+{
+border-collapse:collapse;
+border:1px solid black;
+}
+th, td
+{
+padding:15px;
+}

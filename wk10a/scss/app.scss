@@ -64,8 +64,20 @@ ul.example-orbit{
 	
 }
 
+<<<<<<< HEAD
 footer{
 	margin: 10px 0;
+=======
+.empty_row{
+		min-height: 20px;
+		background-color: black;
+	}
+
+footer{
+	margin: 10px 0;
+	position: relative;
+	z-index: -1;
+>>>>>>> ca35eb2f53454efc4e94c350125169d8871fa854
 }
 
 .justabox_1{
@@ -102,6 +114,7 @@ footer{
 }
 
 .navbar {
+<<<<<<< HEAD
 		// // float: right;
 		// // text-align: center;
 		// // line-height: 75px;
@@ -125,3 +138,56 @@ footer{
 		// color: black;
 		// }
 		}
+=======
+		}
+
+@media only screen and (max-width: 1027px){
+	body{
+		background-color: yellow;
+	}
+	
+	}
+
+	@media only screen and (max-width: 1020px){
+	body{
+		background-color: blue;
+	}
+	
+	}
+
+
+
+
+@media only screen and (max-width: 642px){
+	body{
+		background-color: #999;
+	}
+
+	.boxes{
+		position:relative;
+	}
+
+	.example-orbit{
+		position:absolute;
+		min-height: 200px;
+	}
+
+	footer{
+		position:relative;
+	}
+
+}
+
+
+//small media scree
+@media only screen and (max-width: 481px){
+	body{
+		background-color: white;
+	}
+
+	
+
+	
+	
+}
+>>>>>>> ca35eb2f53454efc4e94c350125169d8871fa854

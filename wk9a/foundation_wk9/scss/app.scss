@@ -1,0 +1,124 @@
+@import "settings";
+@import "foundation";
+// @mixin rounded($vert, $horz, $radius: 10px) {
+// 	border-#{$vert}-#{$horz}-radius: $radius;
+//   -moz-border-radius-#{$vert}#{$horz}: $radius;
+//   -webkit-border-#{$vert}-#{$horz}-radius: $radius;	
+// 	}
+
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+body{
+	background-color: blue;
+}
+
+.example-orbit{
+	min-height: 450px;
+	position: relative;
+	margin-top: 10px;
+}
+
+ul.example-orbit{
+	z-index: -10;
+}
+
+.boxes{
+	position: absolute;
+	
+}
+
+footer{
+	margin: 10px 0;
+}
+
+.justabox_1{
+	background-color:red;
+	opacity: .5;
+	
+	margin-top: 20px;
+}
+
+.justabox_2{
+	background-color:green;
+	opacity: .5;
+	
+	margin-top: 20px;
+
+}	
+
+.justabox_3{
+	clear: both;
+	background-color:orange;
+	opacity: .9;
+	
+	margin-top: 20px;
+}
+
+.justabox_4{
+	clear: both;
+	margin-top: 20px;
+
+
+}
+
+.navbar {
+		// // float: right;
+		// // text-align: center;
+		// // line-height: 75px;
+		// font-size: 35px;
+	 //    li { 
+		// display: inline-lists;
+		// // margin-right: 20px;
+		// // width: 250px;
+		// // height: 75px;
+		// list-style: none;
+		// // @include rounded(top,left);
+		// // @include rounded(top,right);
+		// float: left;
+		// }
+		// a {
+		// display: block;
+		// // width: 250px;
+		// // height: 75px;
+		// // background-color: red;
+		// text-decoration: none;
+		// color: black;
+		// }
+		}
