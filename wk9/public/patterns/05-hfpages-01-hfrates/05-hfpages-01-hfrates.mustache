@@ -2,16 +2,28 @@
 	{{&gt; organisms-hfheader }}
 	&lt;div role=&quot;main&quot;&gt;
 		&lt;h1 class=&quot;section-title&quot;&gt;Rates&lt;/h1&gt;
-		&lt;div class=&quot;l-two-col&quot;&gt;
-			&lt;div class=&quot;l-main&quot;&gt;
-				{{&gt; atoms-ratetable}}
+		&lt;div class=&quot;row&quot;&gt;
 
-			&lt;/div&gt;&lt;!--end l-main--&gt;
+			&lt;div class=&quot;large-12 columns&quot;&gt;
+				&lt;div class=&quot;l-two-col&quot;&gt;
+					&lt;div class=&quot;l-main&quot;&gt;
+						{{&gt; atoms-ratetable}}
+					&lt;/div&gt;&lt;!--end l-main--&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
 
 			&lt;div class=&quot;l-sidebar&quot;&gt;
-
+				&lt;article class=&quot;article&quot;&gt;
+					&lt;header class=&quot;article-header&quot;&gt;
+						&lt;h1&gt;Article Headline Lorem ipsum dolor sit aweofij&lt;/h1&gt;
+						{{&gt; molecules-byline-author-time }}
+					&lt;/header&gt;
+					{{&gt; organisms-article-body }}
+				&lt;/article&gt;&lt;!--end .article--&gt;
 			&lt;/div&gt;&lt;!--end l-sidebar--&gt;
 		&lt;/div&gt;&lt;!--end two-col--&gt;
 	&lt;/div&gt;&lt;!--End role=main--&gt;
+	
+	{{&gt; organisms-hffooter }}
 	{{&gt; organisms-footer }}
 &lt;/div&gt;

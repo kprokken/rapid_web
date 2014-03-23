@@ -3,14 +3,34 @@
 	<div role="main">
 		<div class="l-two-col">
 			<div class="l-main">
-
+				<div class="demo">
+					<!--Grid 2up-->
+					<div class="g g-2up">
+						<div class="gi">
+							<h2>{{headline.short}}</h2>
+							<p>{{excerpt.short}}</p>
+							{{> atoms-landscape-16x9 }}
+						</div>
+						<div class="gi">
+							<h2>{{headline.short}}</h2>
+							<p>{{excerpt.short}}</p>
+							{{> atoms-landscape-16x9 }}
+						</div>
+					</div>
+				</div>
 
 			</div><!--end l-main-->
 
 			<div class="l-sidebar">
-
+				<video width="640" height="360" controls="">
+					<source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+					<source src="http://clips.vorwaerts-gmbh.de/VfE.webm" type="video/webm">
+					<source src="http://clips.vorwaerts-gmbh.de/VfE.ogv" type="video/ogg">
+					<img src="" width="640" height="360" alt="Big Buck Bunny" title="No video playback capabilities, please download">
+				</video>
 			</div><!--end l-sidebar-->
 		</div><!--end l-two-col-->	
 	</div><!--End role=main-->
+	{{> organisms-hffooter }}
 	{{> organisms-footer }}
 </div>

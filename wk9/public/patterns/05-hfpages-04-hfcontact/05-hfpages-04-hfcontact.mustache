@@ -1,15 +1,46 @@
 &lt;div class=&quot;page&quot; id=&quot;page&quot;&gt;
 	{{&gt; organisms-hfheader }}
 	&lt;div role=&quot;main&quot;&gt;
-		&lt;div class=&quot;l-two-col&quot;&gt;
-			&lt;div class=&quot;l-main&quot;&gt;
-
-			&lt;/div&gt;&lt;!--end l-main--&gt;
+		&lt;div class=&quot;l-two-col&quot;&gt;	
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;large-12 columns&quot;&gt;
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;large-3 column&quot;&gt;
+							&lt;img src=&quot;{{img.avatar.src}}&quot; alt=&quot;Avatar&quot; /&gt;
+						&lt;/div&gt;
+						&lt;div class=&quot;large-9 column&quot;&gt;
+							&lt;div class=&quot;l-main&quot;&gt;
+								&lt;fieldset&gt;
+								    &lt;div class=&quot;field-container&quot;&gt;
+								        &lt;label for=&quot;text&quot;&gt;Name &lt;abbr title=&quot;Required&quot;&gt;*&lt;/abbr&gt;&lt;/label&gt;
+								        &lt;input id=&quot;text&quot; type=&quot;text&quot; placeholder=&quot;First and Last&quot;&gt;
+								    &lt;/div&gt;
+								    &lt;div class=&quot;field-container&quot;&gt;
+								        &lt;label for=&quot;webaddress&quot;&gt;Web Address&lt;/label&gt;
+								        &lt;input id=&quot;webaddress&quot; type=&quot;url&quot; placeholder=&quot;http://yoursite.com&quot;&gt;
+								    &lt;/div&gt;
+								    &lt;div class=&quot;field-container&quot;&gt;
+								        &lt;label for=&quot;emailaddress&quot;&gt;Email Address&lt;/label&gt;
+								        &lt;input id=&quot;emailaddress&quot; type=&quot;email&quot; placeholder=&quot;name@email.com&quot;&gt;
+								    &lt;/div&gt;
+								    &lt;div class=&quot;field-container&quot;&gt;
+								        &lt;label for=&quot;textarea&quot;&gt;Message&lt;/label&gt;
+								        &lt;textarea id=&quot;textarea&quot; rows=&quot;8&quot; cols=&quot;48&quot; placeholder=&quot;How can we help you?&quot;&gt;&lt;/textarea&gt;
+								    &lt;/div&gt;
+								&lt;/fieldset&gt;
+							&lt;/div&gt;&lt;!--end l-main--&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
 
 			&lt;div class=&quot;l-sidebar&quot;&gt;
 
 			&lt;/div&gt;&lt;!--end l-sidebar--&gt;
+			
 		&lt;/div&gt;&lt;!--end l-two-col--&gt;	
+		{{&gt; organisms-hffooter }}
+			{{&gt; organisms-footer }}
 	&lt;/div&gt;&lt;!--End role=main--&gt;
-	{{&gt; organisms-footer }}
+	
 &lt;/div&gt;

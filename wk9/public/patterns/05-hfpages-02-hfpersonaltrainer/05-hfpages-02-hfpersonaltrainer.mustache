@@ -3,14 +3,34 @@
 	&lt;div role=&quot;main&quot;&gt;
 		&lt;div class=&quot;l-two-col&quot;&gt;
 			&lt;div class=&quot;l-main&quot;&gt;
-
+				&lt;div class=&quot;demo&quot;&gt;
+					&lt;!--Grid 2up--&gt;
+					&lt;div class=&quot;g g-2up&quot;&gt;
+						&lt;div class=&quot;gi&quot;&gt;
+							&lt;h2&gt;{{headline.short}}&lt;/h2&gt;
+							&lt;p&gt;{{excerpt.short}}&lt;/p&gt;
+							{{&gt; atoms-landscape-16x9 }}
+						&lt;/div&gt;
+						&lt;div class=&quot;gi&quot;&gt;
+							&lt;h2&gt;{{headline.short}}&lt;/h2&gt;
+							&lt;p&gt;{{excerpt.short}}&lt;/p&gt;
+							{{&gt; atoms-landscape-16x9 }}
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
 
 			&lt;/div&gt;&lt;!--end l-main--&gt;
 
 			&lt;div class=&quot;l-sidebar&quot;&gt;
-
+				&lt;video width=&quot;640&quot; height=&quot;360&quot; controls=&quot;&quot;&gt;
+					&lt;source src=&quot;http://clips.vorwaerts-gmbh.de/VfE_html5.mp4&quot; type=&quot;video/mp4&quot;&gt;
+					&lt;source src=&quot;http://clips.vorwaerts-gmbh.de/VfE.webm&quot; type=&quot;video/webm&quot;&gt;
+					&lt;source src=&quot;http://clips.vorwaerts-gmbh.de/VfE.ogv&quot; type=&quot;video/ogg&quot;&gt;
+					&lt;img src=&quot;&quot; width=&quot;640&quot; height=&quot;360&quot; alt=&quot;Big Buck Bunny&quot; title=&quot;No video playback capabilities, please download&quot;&gt;
+				&lt;/video&gt;
 			&lt;/div&gt;&lt;!--end l-sidebar--&gt;
 		&lt;/div&gt;&lt;!--end l-two-col--&gt;	
 	&lt;/div&gt;&lt;!--End role=main--&gt;
+	{{&gt; organisms-hffooter }}
 	{{&gt; organisms-footer }}
 &lt;/div&gt;
