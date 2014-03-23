@@ -1086,3 +1086,10 @@ td {
 
 .comment-text {
   margin-left: 9em; }
+
+.carousel-list-carousel {
+  position: relative;
+  z-index: -10; }
+
+.stuff {
+  position: absolute; }
