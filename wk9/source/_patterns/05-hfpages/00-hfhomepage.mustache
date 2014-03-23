@@ -5,40 +5,51 @@
 		</div>
 	{{/ emergency }}
 	{{> organisms-hfheader }}
-	<div role="main">
+
+	<div class="carousel-list-carousel">
+		<div class="carousel-container">
+			{{> molecules-inset-block }} 
+		</div>
+		<div class="carousel-controls">
+			<a href="#" class="carousel-prev">&larr;</a>
+			<div class="carousel-pagination">1/5</div>
+			<a href="#" class="carousel-next">&rarr;</a>
+		</div>
+	</div>
+
+	<div class="stuff">
 		
-		{{# hero }}
-			{{> molecules-block-hero }}
-		{{/ hero}}
-
-		{{> molecules-call-to-action }}
-
-		<div class="g g-3up">
-			{{# touts}}
-				<div class="gi">
-					{{> molecules-inset-block }}
+		<div role="main">
+			{{# hero }}
+				{{> molecules-block-hero }}
+			{{/ hero}}
+			{{> molecules-call-to-action }}
+			<div class="g g-3up">
+				{{# touts}}
+					<div class="gi">
+						{{> molecules-inset-block }}
+					</div>
+				{{/ touts}}
+			</div><!--end 3up-->
+			<hr />
+			<div class="l-two-col">
+				<div class="l-main">
+					<section class="section latest-posts">
+						<h2 class="section-title">Latest Posts</h2>
+						<ul class="post-list">
+							{{# latest-posts}}
+								<li>{{> molecules-media-block }}</li>
+							{{/ latest-posts}}
+						</ul>
+						<a href="#" class="text-btn">View more posts</a>
+					</section>
 				</div>
-			{{/ touts}}
-		</div><!--end 3up-->
-
-		<hr />
-
-		<div class="l-two-col">
-			<div class="l-main">
-				<section class="section latest-posts">
-					<h2 class="section-title">Latest Posts</h2>
-					<ul class="post-list">
-						{{# latest-posts}}
-							<li>{{> molecules-media-block }}</li>
-						{{/ latest-posts}}
-					</ul>
-					<a href="#" class="text-btn">View more posts</a>
-				</section>
+				<div class="l-sidebar">
+					{{> organisms-recent-tweets }}
+				</div><!--end l-sidebar-->
 			</div>
-
-			<div class="l-sidebar">
-				{{> organisms-recent-tweets }}
-			</div><!--end l-sidebar-->
-	</div><!--End role=main-->
+		</div><!--End role=main-->
+	</div>
 	{{> organisms-hffooter }}
-</div>
+	{{> organisms-footer }}
+	</div>

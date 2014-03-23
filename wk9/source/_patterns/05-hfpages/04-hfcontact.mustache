@@ -1,15 +1,46 @@
 <div class="page" id="page">
 	{{> organisms-hfheader }}
 	<div role="main">
-		<div class="l-two-col">
-			<div class="l-main">
-
-			</div><!--end l-main-->
+		<div class="l-two-col">	
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="row">
+						<div class="large-3 column">
+							<img src="{{img.avatar.src}}" alt="Avatar" />
+						</div>
+						<div class="large-9 column">
+							<div class="l-main">
+								<fieldset>
+								    <div class="field-container">
+								        <label for="text">Name <abbr title="Required">*</abbr></label>
+								        <input id="text" type="text" placeholder="First and Last">
+								    </div>
+								    <div class="field-container">
+								        <label for="webaddress">Web Address</label>
+								        <input id="webaddress" type="url" placeholder="http://yoursite.com">
+								    </div>
+								    <div class="field-container">
+								        <label for="emailaddress">Email Address</label>
+								        <input id="emailaddress" type="email" placeholder="name@email.com">
+								    </div>
+								    <div class="field-container">
+								        <label for="textarea">Message</label>
+								        <textarea id="textarea" rows="8" cols="48" placeholder="How can we help you?"></textarea>
+								    </div>
+								</fieldset>
+							</div><!--end l-main-->
+						</div>
+					</div>
+				</div>
+			</div>
 
 			<div class="l-sidebar">
 
 			</div><!--end l-sidebar-->
+			
 		</div><!--end l-two-col-->	
+		{{> organisms-hffooter }}
+			{{> organisms-footer }}
 	</div><!--End role=main-->
-	{{> organisms-footer }}
+	
 </div>
